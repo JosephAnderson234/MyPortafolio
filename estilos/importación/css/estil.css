@@ -1,12 +1,7 @@
-.conteiner {
-  /**display: flex;**/
-  justify-content: space-between;
-  padding-top: 2em; }
-
 .item {
-  line-height: 4;
-  padding: 0 2em;
-  margin: 1.5em;
+  line-height: 2;
+  /**padding: 0 2em;*/
+  margin: auto;
   color: #000;
   position: relative; }
   .item:before {
@@ -14,7 +9,7 @@
     display: block;
     width: 0;
     height: 3px;
-    background: yellow;
+    background: white;
     position: absolute;
     left: 0;
     bottom: 0;
