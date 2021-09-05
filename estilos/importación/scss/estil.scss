@@ -1,0 +1,45 @@
+.conteiner {
+	/**display: flex;**/
+	justify-content: space-between;
+	padding-top: 2em;
+}
+
+
+.item {
+	line-height: 4;
+	padding: 0 2em;
+	margin: 1.5em;
+	color: #000;
+	position: relative;
+	&:before {
+		content: "";
+		display: block;
+		width: 0;
+		height: 3px;
+		background: yellow;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		transition: all .3s;
+	}
+	&:hover:before {
+		width: 100%;
+	}
+}
+
+#dos:before{
+ 	left: 0;
+}
+
+#dos:before{
+ 	left: 0;
+}
+
+#tres {
+	&:before{
+		left: 50%;
+	}
+	&:hover:before{
+		left: 0;
+	}
+}
