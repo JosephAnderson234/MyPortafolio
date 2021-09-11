@@ -102,11 +102,28 @@ figure{
 .img1{
   border-radius: 50px;
   width: 500px;
+  margin-left: 20px;
 }
 .txt1{
   padding: 50px;
 }
 .text1{
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.MyDominions{
+  display: flex;
+}
+.txt2{
+  padding: 50px;
+}
+.img2{
+  border-radius: 50px;
+  width: 500px;
+  margin-right: 20px;
+}
+.text2{
   font-size: 40px;
   font-family: 'Open Sans', sans-serif;
   color: white;
