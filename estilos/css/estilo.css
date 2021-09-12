@@ -1,7 +1,8 @@
 /*Generals*/
 *{
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 body {
@@ -22,6 +23,47 @@ header {
 }
 
 /*Especific*/
+.socialred{
+  font-size: 1.5rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 35%;
+  right: 0;
+  z-index: 20;
+}
+.red{
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+#red-facebook{
+  background: white;
+}
+#red-facebook i{
+  color: blue;
+}
+#red-instagram{
+  background: red;
+}
+#red-instagram a i{
+  color: white;
+}
+.red:first-child{
+  border-radius: 1rem 0 0 0;
+}
+.red:last-child{
+  border-radius: 0 0 0 1rem;
+}
+.red:hover{
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+
 #cabezal {
   width: 100%;
   background: #373B44;  /* fallback for old browsers */
