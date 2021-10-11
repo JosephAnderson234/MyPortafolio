@@ -1,0 +1,42 @@
+@media(min-width: 655px) {
+  #date{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  #pro{
+    font-size: 50px;
+  }
+  #letraFont{
+    font-size:100px;
+  }
+  .cont-image{
+    height: 580px;
+  }
+}
+
+@media(max-width: 655px) {
+  #date{
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #name{
+    font-size: 40px;
+  }
+  #name2{
+    font-size: 40px;
+  }
+  #pro{
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  #letraFont{
+    font-size:20px;
+  }
+  .cont-image{
+    height: 210px;
+  }
+}
