@@ -47,7 +47,7 @@ header {
   color: blue;
 }
 #red-instagram{
-  background: red;
+  background: white;
 }
 #red-instagram a i{
   color: white;
@@ -63,7 +63,11 @@ header {
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
-
+.iconToInstagram{
+  padding: 0px;
+  margin: 0px;
+  width: 24px;
+}
 
 
 #cabezal {
@@ -135,17 +139,13 @@ figure{
 }
 .presentation{
   display: flex;
+  position: relative;
 }
 .img1{
   border-radius: 50px;
-  width: 500px;
   margin-left: 20px;
 }
-.txt1{
-  padding: 50px;
-}
 .text1{
-  font-size: 40px;
   font-family: 'Open Sans', sans-serif;
   color: white;
 }

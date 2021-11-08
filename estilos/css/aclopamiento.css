@@ -15,6 +15,16 @@
   .cont-image{
     height: 580px;
   }
+  .txt1{
+    padding: 50px;
+  }
+  .img1{
+    width: 500px;
+    height: 500px;
+  }
+  .text1{
+    font-size: 40px;
+  }
 }
 
 @media(max-width: 655px) {
@@ -37,6 +47,19 @@
     font-size:20px;
   }
   .cont-image{
-    height: 210px;
+    height: 250px;
+  }
+  .presentation{
+    flex-direction: column;
+  }
+  .txt1{
+    padding: 20px;
+  }
+  .img1{
+    width: 260px;
+    height: 260px;
+  }
+  .text1{
+    font-size: 20px;
   }
 }
