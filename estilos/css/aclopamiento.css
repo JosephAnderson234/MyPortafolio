@@ -25,6 +25,12 @@
   .text1{
     font-size: 40px;
   }
+  .PieOfPage {
+    display: flex;
+  }
+  .Creditos {
+    margin-right: 400px;
+  }
 }
 
 @media(max-width: 655px) {
@@ -61,5 +67,8 @@
   }
   .text1{
     font-size: 20px;
+  }
+  .PieOfPage {
+    display: block;
   }
 }
