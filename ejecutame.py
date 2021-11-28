@@ -1,7 +1,9 @@
 import os
+import time
 
 os.system("color a")
 print("!Bienvenido a su asistente de  firebase")
+time.sleep(1.5)
 print("")
 def update():
     print("elija nuestras opciones:")
@@ -10,6 +12,7 @@ def update():
     if answer == 1:
         print("[+] Ejecutando código")
         print("[+] Espere...")
+        time.sleep(1)
         print("")
         os.system("cd C:\\Users\\Usuario\\github\\MyPortafolio")
         os.system("firebase deploy --only hosting")
@@ -22,4 +25,5 @@ def update():
             update()
         if reintento == "n":
             print("Hasta pronto")
+            time.sleep(1)
 update()

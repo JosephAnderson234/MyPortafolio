@@ -27,6 +27,7 @@
   }
   .PieOfPage {
     display: flex;
+    height: 150px;
   }
   .Creditos {
     margin-right: 400px;
@@ -70,5 +71,6 @@
   }
   .PieOfPage {
     display: block;
+    height: 200px;
   }
 }
