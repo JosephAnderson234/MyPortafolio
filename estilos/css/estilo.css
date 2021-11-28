@@ -1,14 +1,16 @@
 /*Generals*/
 *{
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 body {
-    background: #911F27;
-    color: #ffffff;
+    color: black;
+    background: #202f60;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
+    position: relative;
 }
 
 a{
@@ -22,15 +24,67 @@ header {
 }
 
 /*Especific*/
-.cabezal {
+.socialred{
+  margin-right: 0px;
+  font-size: 1.5rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 35%;
+  right: 0;
+  z-index: 20;
+}
+.red{
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+#red-facebook{
+  background: white;
+}
+#red-facebook i{
+  color: blue;
+}
+#red-instagram{
+  background: white;
+}
+#red-instagram a i{
+  color: white;
+}
+.red:first-child{
+  border-radius: 1rem 0 0 0;
+}
+.red:last-child{
+  border-radius: 0 0 0 1rem;
+}
+.red:hover{
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+.iconToInstagram{
+  padding: 0px;
+  margin: 0px;
+  width: 24px;
+}
+
+
+#cabezal {
   width: 100%;
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, RGB(66, 134, 244, 0.6), RGB(55, 59, 68, 0.6)), url("navBar.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, RGB(66, 134, 244, 0.9), RGB(55, 59, 68, 0.9)), url("navBar.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 91%, 0% 100%);
 }
 .Nav-conteiner{
   position: sticky;
   width: 100%;
-  height: 60px;
+  height: 30px;
   top: 0;
-  background: black;
 }
 .links {
   padding-top: 10px;
@@ -43,13 +97,55 @@ header {
   justify-content: space-between;
 }
 .links a{
-  color: white;
+  color: rgba(223,223,223,1);
 }
 .item{
 }
 .cont-image{
   width: 100%;
 }
+#date{
+  font-size: 100px;
+  align-items: center;
+  align-content: center;
+}
+#name{
+}
+#name2{
+  padding-top: 0px;
+}
+#pro{
+  padding-top: 0px;
+}
+#IMGperfil{
+  /**Clip-path: inset(20px 200px 0px 190px);**/
+  width: 800px;
+  height: 50%;
+}
 .ImagenNav{
   width: 100%;
+}
+#animated{
+  height: 10px;
+}
+figcaption a{
+  color: black;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+figure{
+  Background: red;
+}
+.presentation{
+  display: flex;
+  position: relative;
+}
+.img1{
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.text1{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }

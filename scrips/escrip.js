@@ -1,3 +1,8 @@
+/*alert("Hello World :D");*/
+
+
+
+
 /*
 Animacion
 var t = setInterval(move, 10);
@@ -73,8 +78,3 @@ var respuesta = prompt("Como estas?", "bien")
 
 alert(respuesta)
 */
-var p = document.createElement("p");
-var text = document.createTextNode("Derechos reservados XD");
-p.appendChild(text);
-var pro = document.getElementByClass("credits");
-pro.appendChild(p);

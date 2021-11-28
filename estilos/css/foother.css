@@ -1,0 +1,13 @@
+.PieOfPage{
+  background: rgba(54,49,51,1);
+  text-decoration: none;
+  color: white;
+  padding-left: 51px;
+  padding-right: 51px;
+  font-size: 20px;
+}
+.Contacto, .listOfResource a{
+  color: white;
+  font-size: 20px
+
+}

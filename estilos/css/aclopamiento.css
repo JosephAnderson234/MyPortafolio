@@ -1,0 +1,76 @@
+@media(min-width: 655px) {
+  #date{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  #pro{
+    font-size: 50px;
+  }
+  #letraFont{
+    font-size:100px;
+  }
+  .cont-image{
+    height: 580px;
+  }
+  .txt1{
+    padding: 50px;
+  }
+  .img1{
+    width: 500px;
+    height: 500px;
+  }
+  .text1{
+    font-size: 40px;
+  }
+  .PieOfPage {
+    display: flex;
+    height: 150px;
+  }
+  .Creditos {
+    margin-right: 400px;
+  }
+}
+
+@media(max-width: 655px) {
+  #date{
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #name{
+    font-size: 40px;
+  }
+  #name2{
+    font-size: 40px;
+  }
+  #pro{
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  #letraFont{
+    font-size:20px;
+  }
+  .cont-image{
+    height: 250px;
+  }
+  .presentation{
+    flex-direction: column;
+  }
+  .txt1{
+    padding: 20px;
+  }
+  .img1{
+    width: 260px;
+    height: 260px;
+  }
+  .text1{
+    font-size: 20px;
+  }
+  .PieOfPage {
+    display: block;
+    height: 200px;
+  }
+}
