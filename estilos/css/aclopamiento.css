@@ -32,6 +32,9 @@
   .Creditos {
     margin-right: 400px;
   }
+  .partOne{
+    display: flex;
+  }
 }
 
 @media(max-width: 655px) {
@@ -72,5 +75,8 @@
   .PieOfPage {
     display: block;
     height: 250px;
+  }
+  .partOne{
+    display: block;
   }
 }
