@@ -10,14 +10,15 @@
   background: var(--clr)
 }
 .menuSocialRed{
-  width: 400px;
-  height: 70px;
+  width: 410px;
+  height: 80px;
   background: #fff;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  margin: 10px;
 }
 
 .menuSocialRed ul{
@@ -27,11 +28,15 @@
 
 .menuSocialRed ul li{
   position: relative;
+  padding-top: 0;
+  border-radius: 10px;
   width: 70px;
-  height: 70px;
   z-index: 1;
+  transition: 0.5s;
 }
-
+.menuSocialRed ul li:hover{
+  background: rgba(0, 247, 255, 0.404);
+}
 .menuSocialRed ul li a{
   position: relative;
   display: flex;
@@ -44,6 +49,7 @@
 }
 
 .menuSocialRed ul li a .icon{
+  margin: auto;
   position: relative;
   display: block;
   line-height: 75px;
@@ -51,23 +57,4 @@
   text-align: center;
   transition: 0.5s;
   color: var(--clr);
-}
-.menuSocialRed ul li:hover a .icon{
-  transform: translateY(-35px);
-}
-
-.menuSocialRed ul li a .text{
-  position: absolute;
-  color: var(--clr);
-  font-weight: 400;
-  font-size: 0.75em;
-  letter-spacing: 0.05em;
-  transition: 0.5s;
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-.menuSocialRed ul li:hover a .text{
-  opacity: 1;
-  transform: translateY(10px);
 }
