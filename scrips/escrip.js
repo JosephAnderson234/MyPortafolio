@@ -1,6 +1,5 @@
 
 
-
 /*
 Animacion
 var t = setInterval(move, 10);

@@ -34,9 +34,14 @@
   z-index: 1;
   transition: 0.5s;
 }
-.menuSocialRed ul li:hover{
+.menuSocialRed ul .list:hover{
   background: rgba(0, 247, 255, 0.404);
 }
+
+.list.active{
+  background: rgb(0, 247, 255);
+}
+
 .menuSocialRed ul li a{
   position: relative;
   display: flex;

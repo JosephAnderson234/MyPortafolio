@@ -43,35 +43,35 @@
     <div class="menuSocialRed">
       <ul>
         <li class="list">
-          <a href="#">
+          <a href="" target="viewport">
             <span class="icon">
               <ion-icon name="logo-facebook"></ion-icon>
             </span>
           </a>
         </li>
         <li class="list">
-          <a href="#">
+          <a href="#" target="viewport">
             <span class="icon">
               <ion-icon name="logo-youtube"></ion-icon>
             </span>
           </a>
         </li>
         <li class="list">
-          <a href="#">
+          <a href="#" target="viewport">
             <span class="icon">
               <ion-icon name="logo-instagram"></ion-icon>
             </span>
           </a>
         </li>
         <li class="list">
-          <a href="#">
+          <a href="#" target="viewport">
             <span class="icon">
               <ion-icon name="logo-twitter"></ion-icon>
             </span>
           </a>
         </li>
         <li class="list">
-          <a href="#">
+          <a href="#" target="viewport">
             <span class="icon">
               <ion-icon name="logo-whatsapp"></ion-icon>
             </span>
@@ -81,14 +81,15 @@
     </div>
   </div>
   <div>
-    <iframe>
-      <iframe name="miIframe"></iframe>
-    </iframe>
+    <!--Create a iframe with the classMyIframe-->
+    <iframe name="viewport" class="myIframe"></iframe>
+
   </div>
+
   <footer class="PieOfPage">
     <div class="Creditos">
       <p class="titleOfTheCredits">
-        Este proyectco no existiría sin la ayuda de:
+        Este proyecto no existiría sin la ayuda de:
       </p>
       <ul class="listOfResource">
         <li>
@@ -122,5 +123,11 @@
   </footer>
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <script src="../scrips\escrip.js"></script> 
+  <script>
+    let selector = document.querySelector('.list');
+    selector.onclick = function(){
+      selector.ClassList.toggle('active');
+    }
+  </script>
 </body>
 </html>
