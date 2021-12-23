@@ -1,5 +1,7 @@
-
-
+let li = document.querySelectorAll('.prb');
+li.onclick = function () {
+    li.classList.toggle('active');
+}
 /*
 Animacion
 var t = setInterval(move, 10);
