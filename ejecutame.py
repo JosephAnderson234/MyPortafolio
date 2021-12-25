@@ -64,7 +64,6 @@ def update():
         print("[+] Espere...")
         time.sleep(1)
         print("")
-        os.system("cd C:\\Users\\Usuario\\github\\MyPortafolio")
         os.system("firebase deploy --only hosting")
         #os.system("")
         print("")
