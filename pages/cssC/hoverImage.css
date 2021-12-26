@@ -1,0 +1,65 @@
+figure {
+  background: none;
+}
+
+.DVimage{
+  margin-left: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+.DVimage figure{
+  margin: auto;
+  position: relative;
+  height: 300px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.25);
+  cursor: pointer;
+}
+
+.DVimage figure img{
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.DVimage figure .CapaOfImage{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 103, 123, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.DVimage figure:hover > .CapaOfImage{
+  opacity: 1;
+  visibility: visible;
+}
+
+.DVimage figure:hover > .CapaOfImage h3{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.DVimage figure:hover > .CapaOfImage img{
+  transform: scale(1.3);
+}
+.DVimage figure .CapaOfImage h3{
+  color: white;
+  font-weight: 400;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+.DVimage figure .CapaOfImage p{
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}

@@ -1,4 +1,64 @@
-/*alert("Hello World :D");*/
+function corroborador (valor){
+    if (valor == list[0]){
+        list[1].classList.remove('active');
+        list[2].classList.remove('active');
+        list[3].classList.remove('active');
+        list[4].classList.remove('active');
+    } else if (valor == list[1]){
+        list[0].classList.remove('active');
+        list[2].classList.remove('active');
+        list[3].classList.remove('active');
+        list[4].classList.remove('active');
+    } else if (valor == list[2]){
+        list[0].classList.remove('active');
+        list[1].classList.remove('active');
+        list[3].classList.remove('active');
+        list[4].classList.remove('active');
+    }
+    else if (valor == list[3]){
+        list[0].classList.remove('active');
+        list[1].classList.remove('active');
+        list[2].classList.remove('active');
+        list[4].classList.remove('active');
+    }
+    else if (valor == list[4]){
+        list[0].classList.remove('active');
+        list[1].classList.remove('active');
+        list[2].classList.remove('active');
+        list[3].classList.remove('active');
+    }
+}
+
+
+
+let list =[]
+list[0] = document.querySelector('.list1');
+list[0].onclick = function () {
+    list[0].classList.toggle('active');
+    corroborador(list[0]);
+}
+list[1] = document.querySelector('.list2');
+list[1].onclick = function () {
+    list[1].classList.toggle('active');
+    corroborador(list[1]);
+}
+list[2] = document.querySelector('.list3');
+list[2].onclick = function () {
+    list[2].classList.toggle('active');
+    corroborador(list[2]);
+}
+list[3] = document.querySelector('.list4');
+list[3] .onclick = function () {
+    list[3] .classList.toggle('active');
+    corroborador(list[3]);
+}
+list[4] = document.querySelector('.list5');
+list[4].onclick = function () {
+    list[4].classList.toggle('active');
+    corroborador(list[4]);
+}
+
+
 
 
 

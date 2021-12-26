@@ -1,0 +1,76 @@
+:root{
+  --clr: #222327
+}
+
+.Body2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: var(--clr)
+}
+.menuSocialRed{
+  width: 410px;
+  height: 80px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.menuSocialRed ul{
+  display:flex;
+  width: 350px;
+}
+
+.list1, .list2, .list3,.list4,.list5{
+  position: relative;
+  padding-top: 0;
+  border-radius: 10px;
+  width: 70px;
+  z-index: 1;
+  transition: 0.5s;
+}
+.menuSocialRed ul li:hover{
+  background: rgba(0, 247, 255, 0.404);
+}
+
+.list1.active{
+  background: rgb(0, 247, 255);
+}
+.list2.active{
+  background: rgb(0, 247, 255);
+}
+.list3.active{
+  background: rgb(0, 247, 255);
+}
+.list4.active{
+  background: rgb(0, 247, 255);
+}
+.list5.active{
+  background: rgb(0, 247, 255);
+}
+.menuSocialRed ul li a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.menuSocialRed ul li a .icon{
+  margin: auto;
+  position: relative;
+  display: block;
+  line-height: 75px;
+  font-size: 1.5em;
+  text-align: center;
+  transition: 0.5s;
+  color: var(--clr);
+}
