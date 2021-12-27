@@ -74,3 +74,18 @@
   transition: 0.5s;
   color: var(--clr);
 }
+@media(max-width: 655px){
+  .menuSocialRed{
+    width: 100%;
+  }
+  .menuSocialRed ul{
+    width: 100%;
+  }
+  .list1, .list2, .list3,.list4,.list5{
+    width: 100%;
+  }
+  .menuSocialRed ul li a .icon{
+    line-height: 100px;
+    font-size: 1.5em;
+  }
+}
