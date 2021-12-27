@@ -1,0 +1,46 @@
+.proyects ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.proyects ul li{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.proyects ul li img{
+    width: 60%;
+}
+.proyects ul li span a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.sectionOfTitle{
+    width: 300px;
+    align-items: center;
+    margin: auto;
+}
+.title{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+    .title:before{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: white;
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transition: all .6s;
+    }
+    .title:hover:before{
+        width: 100%;
+        left: 0;
+    }

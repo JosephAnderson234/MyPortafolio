@@ -30,7 +30,6 @@ function corroborador (valor){
 }
 
 
-
 let list =[]
 list[0] = document.querySelector('.list1');
 list[0].onclick = function () {
